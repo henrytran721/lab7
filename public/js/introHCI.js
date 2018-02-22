@@ -15,6 +15,6 @@ function initializePage() {
 
 function sendToAnalystic(event) {
 	event.preventDefault();
-	ga('create', 'UA-114609896-1', 'auto');
+	ga('create', 'UA-114587488-1', 'auto');
 	ga("send", "event", 'like', 'click');
 }
